@@ -6,7 +6,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git url:'https://github.com/revitalb10/MyApp22.git', branch:'master'
+        git url:'https://github.com/revitalb10/RevApp22.git', branch:'master'
       }
     }
     
